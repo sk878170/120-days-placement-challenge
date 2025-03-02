@@ -26,3 +26,22 @@ print(myList)
 thislist= ["Java","Python","C++"]
 thislist[1:3]=["Ruby"]
 print(thislist)
+# o/p =  ['Java', 'Ruby']
+
+# Now to insert an item
+thislist.insert(2,"C#")
+print(thislist)
+
+# To append an item
+thislist.append("JavaScript")
+print(thislist)
+
+# You can extend a llst to another list
+myList.extend(thislist)
+print(myList)
+
+# pop removes the last element
+myList.pop()
+
+myList.remove("Java")
+print(myList)

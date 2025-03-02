@@ -14,5 +14,5 @@ int main() {
     get<0>(x1) = 'B'; // This will give error as tuple is immutable
 
     cout << "The size of tuple is: ";
-    cout << tuple_size<decltype(x1)>::value << endl;
+    cout << tuple_size<decltype(x1)>::value << endl;// gives size of tuple
 }
